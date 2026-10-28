@@ -10,7 +10,7 @@ def introduce_baby(baby_name, age, current_weight):
     print("Age:", age)
     print("Weight:", current_weight)
 
-    activity = random.choice(["dance", "stay still"])
+    activity =(["dance", "stay still"])
     if activity == "dance":
         dance()
     else:
@@ -128,4 +128,3 @@ while True:
 
     else:
         print("Invalid choice. Please try again.")
->>>>>>> 85a2fa6 (Added RoboBaby introduction)
