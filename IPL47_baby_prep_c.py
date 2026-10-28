@@ -98,7 +98,7 @@ while True:
         print(baby_name, "ate 11 oz.")
 
         if poop_count == 3:
-            print("Excessive pooping. Game over!")
+            print("Excessive pooping. Baby has exploded.")
             break
 
     elif choice == "2":
