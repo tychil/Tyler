@@ -1,6 +1,9 @@
 
 
 
+import random
+
+
 def dance():
     print("Baby is dancing!")
 
@@ -9,8 +12,9 @@ def introduce_baby(baby_name, age, current_weight):
     print("Meet", baby_name + "!")
     print("Age:", age)
     print("Weight:", current_weight)
+    print(baby_name, "likes to dance!")
 
-    activity =(["dance", "stay still"])
+    activity = random.choice(["dance", "stay still"])
     if activity == "dance":
         dance()
     else:
